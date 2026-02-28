@@ -187,7 +187,7 @@ def set_simhei_names(font):
         ('English (US)', 'SubFamily', 'Regular'),
         ('English (US)', 'Version', get_version(font)),
         ('English (US)', 'Copyright', COPYRIGHT),
-        ('English (US)', 'PostScriptName', 'SimHei')
+        ('English (US)', 'PostScriptName', 'SimHei'),
         ('Chinese (PRC)', 'Family', '黑体'),
         ('Chinese (PRC)', 'Fullname', '黑体')
     )
