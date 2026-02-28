@@ -89,10 +89,10 @@ jobs:
         run: |
           cd $DL_DIR_HINTED
           rm *.7z
-          7z a hinted-${{ needs.job1.outputs.upstream_tag }}.7z msyh* simsun*
+          7z a hinted-${{ needs.job1.outputs.upstream_tag }}.7z msyh* simsun* simhei*
           cd $DL_DIR_UNHINTED
           rm *.7z
-          7z a unhinted-${{ needs.job1.outputs.upstream_tag }}.7z msyh* simsun*
+          7z a unhinted-${{ needs.job1.outputs.upstream_tag }}.7z msyh* simsun* simhei*
 
       - name: Calculate SHA1
         run: |

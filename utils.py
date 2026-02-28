@@ -173,3 +173,21 @@ def set_simsun_ext_names(font):
         ('English (US)', 'Copyright', COPYRIGHT),
         ('English (US)', 'PostScriptName', 'SimSun-ExtB')
     )
+
+def set_simhei_names(font):
+    font.fontname = 'SimHei'
+    font.familyname = 'SimHei'
+    font.fullname = 'SimHei'
+    font.version = get_version(font)
+    font.copyright = COPYRIGHT
+    font.sfnt_names = (
+        ('English (US)', 'Family', 'SimHei'),
+        ('English (US)', 'Fullname', 'SimHei'),
+        ('English (US)', 'UniqueID', 'SimHei'),
+        ('English (US)', 'SubFamily', 'Regular'),
+        ('English (US)', 'Version', get_version(font)),
+        ('English (US)', 'Copyright', COPYRIGHT),
+        ('English (US)', 'PostScriptName', 'SimHei')
+        ('Chinese (PRC)', 'Family', '黑体'),
+        ('Chinese (PRC)', 'Fullname', '黑体')
+    )
