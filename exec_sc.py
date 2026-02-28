@@ -1,4 +1,4 @@
-import utils, gen_yahei_sc, gen_simsun_sc
+import utils, gen_yahei_sc, gen_simsun_sc, gen_simhei_sc
 
 if __name__ == '__main__':
 
@@ -11,7 +11,7 @@ if __name__ == '__main__':
     gen_simsun_sc.gen_simsun_ext_sc(utils.DIR_HINTED)
     print('hinted simsun successfully generated')
 
-    gen_simsun_sc.gen_simhei_sc(utils.DIR_HINTED)
+    gen_simhei_sc.gen_simhei_sc(utils.DIR_HINTED)
     print('hinted simhei successfully generated')
 
     gen_yahei_sc.gen_yahei_regular_sc(utils.DIR_UNHINTED)
@@ -23,6 +23,6 @@ if __name__ == '__main__':
     gen_simsun_sc.gen_simsun_ext_sc(utils.DIR_UNHINTED)
     print('unhinted simsun successfully generated')
 
-    gen_simsun_sc.gen_simhei_sc(utils.DIR_UNHINTED)
+    gen_simhei_sc.gen_simhei_sc(utils.DIR_UNHINTED)
     print('unhinted simhei successfully generated')
 
